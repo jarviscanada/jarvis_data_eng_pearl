@@ -4,6 +4,7 @@
 if [ $# -gt 2 ] || [ $# -lt 1 ]
 then
 	echo "Invalid number of arugments"
+	echo "Usage: ./psql_docker.sh start|stop [postgres_password]"
 	exit 1
 fi
 
@@ -55,6 +56,7 @@ then
 
 else 
 	echo 'Invalid command read.'
+	echo 'Usage: ./psql_docker.sh start|stop [postgres_password]'
 	exit 1
 fi
 
