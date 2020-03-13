@@ -33,25 +33,27 @@ then
 		
 	
 	#if the jrvs-psql is not created, create one
-	if [ $jpCreate -eq 1 ]
+	if [ $jpCreate -lt 2 ]
 	then
 		docker run --name jrvs-psql -e POSTGRES_PASSWORD=$PGPASSWORD -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres
 	fi
 
 	#check if `jrvs-psql` container is running
 	#analogy: check `jrvs-psql` is powered on
-	jpRunning=`docker ps -f name="jrvs-psql" | wc -l`
+	#jpRunning=`docker ps -f name="jrvs-psql" | wc -l`
 
 	#if the jrvs-psql is off, turn on it
-	if [ $jpRunning -eq 1 ]
-	then
-		docker container start jrvs-psql
-	fi
+	#if [ $jpRunning -eq 1 ]
+	#then
+	docker container start jrvs-psql
+	#fi
+	exit 0
 
 
 elif [ $1 == "stop" ]
 then
 	docker container stop jrvs-psql
+	exit 0
 
 
 else 
