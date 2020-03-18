@@ -1,16 +1,14 @@
 
---TODO:SHEBANG
 
 --create a `host_agent` database if not exist
-CREATE DATABASE IF NOT EXISTS host_agent 
+CREATE DATABASE host_agent; 
 
 
 --switch to `host_agent`
---TODO
-
+\c host_agent;
 
 --create `host_info` table if not exist
-DROP TABLE IF EXISTS public.host_info
+DROP TABLE IF EXISTS public.host_info CASCADE;
 CREATE TABLE PUBLIC.host_info 
       ( 
          id               SERIAL NOT NULL, 
@@ -30,7 +28,7 @@ CREATE TABLE PUBLIC.host_info
     
 
 --create `host_usage` table if not exist    
-DROP TABLE IF EXISTS public.host_usage 
+DROP TABLE IF EXISTS public.host_usage CASCADE; 
 CREATE TABLE PUBLIC.host_usage 
       ( 
          "timestamp"    TIMESTAMP NOT NULL, 
