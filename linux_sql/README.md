@@ -4,6 +4,8 @@ Cluster Monitor Agent is an internal tool that records the hardware specificatio
 
 
 ## Architecture and Design
+![Architecture demo]
+/assets/monitor_cluster_demo.jpg
 * `host_info` table records the hardware specifications of each node
 * `host_usage` table records the resource usage of each node every minute 
 * `host_info.sh` collects the host hardware info and insert it into the database. It will be run only once at the installation time.
@@ -13,7 +15,7 @@ Cluster Monitor Agent is an internal tool that records the hardware specificatio
 ## Usage
 * how to init database and tables
 	1. `./scripts/psql_docker.sh start|stop [password]` to start/stop psql container instance.
-	2. `psql -h localhost -p 5432 -U postgres -W -f sql/ddl.sql` to init database and tables
+	2. `psql -h localhost -p 5432 -U postgres -W -f sql/ddl.sql` to init database and tables.
 *  `host_info.sh` usage
 	`./scripts/host_info.sh psql_host psql_port db_name psql_user psql_password`
 * `host_usage.sh` usage
@@ -22,12 +24,12 @@ Cluster Monitor Agent is an internal tool that records the hardware specificatio
 	```to run host_usage every minute using crontab, open the terminal
 	crontab -e
 	#add this to crontab
-	* * * * * bash /home/centos/dev/jrvs/bootcamp/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
+	* * * * * bash /home/centos/dev/jarvis_data_eng_pearl/linux_sql/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
 
 	#list crontab jobs
 	crontab -l
 
-	#validate your result in psql instance```
+	#validate your result in psql instance
 
 
 ## Improvements 
