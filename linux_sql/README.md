@@ -4,8 +4,7 @@ Cluster Monitor Agent is an internal tool that records the hardware specificatio
 
 
 ## Architecture and Design
-![Architecture demo]
-/assets/monitor_cluster_demo.jpg
+![Architecture demo](https://github.com/jarviscanada/jarvis_data_eng_pearl/blob/README/linux_sql/assets/monitor_cluster_demo.jpg)
 * `host_info` table records the hardware specifications of each node
 * `host_usage` table records the resource usage of each node every minute 
 * `host_info.sh` collects the host hardware info and insert it into the database. It will be run only once at the installation time.
