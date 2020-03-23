@@ -8,6 +8,7 @@ then
 	exit 1
 fi
 
+
 if [ $1 == "start" ]
 then
 	#su centos
@@ -47,17 +48,14 @@ then
 	then
 		docker container start jrvs-psql
 	fi
-
-
+	exit 0
 elif [ $1 == "stop" ]
 then
 	docker container stop jrvs-psql
-
-
+	exit 0
 else 
 	echo 'Invalid command read.'
 	echo 'Usage: ./psql_docker.sh start|stop [postgres_password]'
 	exit 1
 fi
-
 

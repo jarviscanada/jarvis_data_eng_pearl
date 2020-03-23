@@ -4,6 +4,7 @@ if [ $# != 5 ]
 then
 	echo 'Invalid number of arguments read'
 	echo 'Usage: ./scripts/host_info.sh psql_host psql_port db_name psql_user psql_password'
+	exit 1
 fi
 
 
@@ -40,4 +41,5 @@ VALUES
 	('$hostname', $cpu_number, '$cpu_architecture', '$cpu_model', $cpu_mhz, $L2_cache, $total_mem, '$curtime');
 EOF
 
+exit 0
 
