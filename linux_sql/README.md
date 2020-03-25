@@ -122,11 +122,11 @@ cat /tmp/host_usage.log
 
 ## Improvements
 
-###### 1. Detect node failures and overloaded servers
-######  Send out alerts if node failures if detected. Similarly, if a server is used consistently high volume, also send out alerts to the team in order to indicate that rebalance the workload distribution is necessary. 
-###### 2. Handle hardware updates
-###### The `host_info` table in the database should be noticed and updated once a hardware replacement happens (ex. CPU replacement). 
-###### 3. Create backups of `host_agent` database
-###### Currently our whole database is designed to only rely on one server in our architecture which has a high risk of server failure. A backup database is recommended to be hosted on another server.
+1. Detect node failures and overloaded servers
+Send out alerts if node failures if detected. Similarly, if a server is used consistently high volume, also send out alerts to the team in order to indicate that rebalance the workload distribution is necessary. 
+2. Handle hardware updates
+The `host_info` table in the database should be noticed and updated once a hardware replacement happens (ex. CPU replacement). 
+3. Create backups of `host_agent` database
+Currently our whole database is designed to only rely on one server in our architecture which has a high risk of server failure. A backup database is recommended to be hosted on another server.
 
 
