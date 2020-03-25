@@ -1,3 +1,7 @@
+
+#mkdir -p {your_workspace}/jarvis_data_eng_{your_name}/practice
+#cd {your_workspace}/jarvis_data_eng_{your_name}/practice
+
 #sync
 git checkout develop
 git pull
