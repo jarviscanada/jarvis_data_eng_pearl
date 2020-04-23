@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f9c2ae9-539a-4369-9dee-4051eee49732" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/grep/JavaGrep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/grep/JavaGrep.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZwpojTC8zyF0iWwdJecaWU90FG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/source" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.17586207" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn validate" />
+      <command value="maven validate" />
+      <command value="mvn clean" />
+      <command value="mvn package" />
+      <command value="mvn clean install" />
+      <command value="mvn install" />
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="grepImp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.grep.JavaGrepImp" />
+      <module name="grep" />
+      <option name="PROGRAM_PARAMETERS" value="(.*)import(.*) $PROJECT_DIR$/testscripts $PROJECT_DIR$/sampleOutput" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.grepImp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f9c2ae9-539a-4369-9dee-4051eee49732" name="Default Changelist" comment="" />
+      <created>1585760187866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585760187866</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="158" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586198198168">
+      <screen x="0" y="31" width="1400" height="970" />
+    </state>
+    <state x="158" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1400.970@0.31.1400.970" timestamp="1586198198168" />
+    <state x="405" y="321" width="585" height="391" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585765215271">
+      <screen x="0" y="31" width="1400" height="970" />
+    </state>
+    <state x="405" y="321" width="585" height="391" key="#com.intellij.fileTypes.FileTypeChooser/0.31.1400.970@0.31.1400.970" timestamp="1585765215271" />
+    <state x="432" y="301" width="531" height="431" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586197798110">
+      <screen x="0" y="31" width="1400" height="970" />
+    </state>
+    <state x="432" y="301" width="531" height="431" key="#com.intellij.ide.util.TreeClassChooserDialog/0.31.1400.970@0.31.1400.970" timestamp="1586197798109" />
+    <state x="483" y="275" width="430" height="486" key="FileChooserDialogImpl" timestamp="1585861904111">
+      <screen x="0" y="31" width="1400" height="970" />
+    </state>
+    <state x="483" y="275" width="430" height="486" key="FileChooserDialogImpl/0.31.1400.970@0.31.1400.970" timestamp="1585861904111" />
+    <state width="1352" height="254" key="GridCell.Tab.0.bottom" timestamp="1586201120999">
+      <screen x="0" y="31" width="1400" height="970" />
+    </state>
+    <state width="1352" height="254" key="GridCell.Tab.0.bottom/0.31.1400.970@0.31.1400.970" timestamp="1586201120999" />
+    <state width="1352" height="254" key="GridCell.Tab.0.center" timestamp="1586201120999">
+      <screen x="0" y="31" width="1400" height="970" />
+    </state>
+    <state width="1352" height="254" key="GridCell.Tab.0.center/0.31.1400.970@0.31.1400.970" timestamp="1586201120999" />
+    <state width="1352" height="254" key="GridCell.Tab.0.left" timestamp="1586201120998">
+      <screen x="0" y="31" width="1400" height="970" />
+    </state>
+    <state width="1352" height="254" key="GridCell.Tab.0.left/0.31.1400.970@0.31.1400.970" timestamp="1586201120998" />
+    <state width="1352" height="254" key="GridCell.Tab.0.right" timestamp="1586201120999">
+      <screen x="0" y="31" width="1400" height="970" />
+    </state>
+    <state width="1352" height="254" key="GridCell.Tab.0.right/0.31.1400.970@0.31.1400.970" timestamp="1586201120999" />
+    <state x="189" y="151" width="1022" height="732" key="SettingsEditor" timestamp="1586197740768">
+      <screen x="0" y="31" width="1400" height="970" />
+    </state>
+    <state x="189" y="151" width="1022" height="732" key="SettingsEditor/0.31.1400.970@0.31.1400.970" timestamp="1586197740768" />
+    <state x="366" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1585864213049">
+      <screen x="0" y="31" width="1400" height="970" />
+    </state>
+    <state x="366" y="343" key="com.intellij.ide.util.TipDialog/0.31.1400.970@0.31.1400.970" timestamp="1585864213049" />
+    <state x="361" y="234" width="672" height="677" key="run.anything.popup" timestamp="1586197473554">
+      <screen x="0" y="31" width="1400" height="970" />
+    </state>
+    <state x="361" y="234" width="672" height="677" key="run.anything.popup/0.31.1400.970@0.31.1400.970" timestamp="1586197473554" />
+  </component>
+</project>
