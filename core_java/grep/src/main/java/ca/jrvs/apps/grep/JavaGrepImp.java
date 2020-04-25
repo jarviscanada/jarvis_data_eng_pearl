@@ -1,8 +1,8 @@
 
 package ca.jrvs.apps.grep;
 
-//import org.slf4j.Logger;
-//import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ import java.util.List;
 
 public class JavaGrepImp implements JavaGrep {
 
-    //final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
+    final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
 
     private String regex;
     private String rootPath;
@@ -58,11 +58,9 @@ public class JavaGrepImp implements JavaGrep {
             }
             br.close();
         }catch (FileNotFoundException fnfe){
-            //logger.error("file not found", fnfe);
-            System.out.println("file not found");
+            logger.error("file not found", fnfe);
         }catch (IOException ioe){
-            //logger.error("unable to open the file", ioe);
-            System.out.println("unable to open the file");
+            logger.error("unable to open the file", ioe);
         }
         return  outputLines;
     }
@@ -123,8 +121,7 @@ public class JavaGrepImp implements JavaGrep {
         try{
             javaGrepImp.process();
         } catch (Exception ex){
-            //javaGrepImp.logger.error(ex.getMessage(), ex);
-            System.out.println("error");
+            javaGrepImp.logger.error(ex.getMessage(), ex);
         }
 
     }
