@@ -21,7 +21,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_pearl](htt
 
 - **[Cluster Monitor](./linux_sql)**: Developed an internal tool to record hardware specifications and track server node usage for the Linux cluster administrator team using bash scripts. Collected the usage data leveraging PostgreSQL and generated reports for further planning purposes.
 - **[Core Java Apps](./core_java)**:  Programmed a JavaGrep program that is similar to Grep with Java Stream API. Programmed JDBC by implementing a Data Access Object (DAO) pattern that leverages Data Transfer Object (DTO) to transfer the data between different classes and performs CRUD (create, read, update, delete) operations on DTOs. Programmed a Java app which can post/show/delete Twitter post via Twitter REST API.
-- **[SpringBoot App](./springboot)**: in-progress
+- **[SpringBoot App](./springboot)**: In-progress
 - **[Cloud & DevOps](./cloud_devops)**: Not started
 - **[Hadoop](./hadoop)**: Not started
 - **[Spark/Scala](./spark)**:  Not started
